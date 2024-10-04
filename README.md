@@ -11,20 +11,24 @@
 
 *Win*
 
-![image](https://github.com/user-attachments/assets/0c6ad78c-a473-429c-a230-0c508a9d419e)
+![image](https://github.com/user-attachments/assets/1b938f64-a8b9-494f-b922-46a9bd6fa0ee)
+
 
 *Losing*
 
-![image](https://github.com/user-attachments/assets/99f77f0f-f937-41cb-a981-093e4958c365)
+![image](https://github.com/user-attachments/assets/32bc8a70-1380-41da-9307-02306c897c61)
+
 
 
 **Second game "Calc"**:
 
 *Win*
 
-![image](https://github.com/user-attachments/assets/d94e056b-9590-4cc7-86cf-6245ce6c6840)
+![image](https://github.com/user-attachments/assets/9f4eb29d-cd0c-4a26-828c-b95f5e305090)
+
 
 
 *Losing*
 
-![image](https://github.com/user-attachments/assets/0b63ba38-f5ea-4dc3-9424-2cd464ab28b7)
+![image](https://github.com/user-attachments/assets/37c8a157-f667-4399-9f83-9d04774798b4)
+
