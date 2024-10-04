@@ -32,3 +32,15 @@
 
 ![image](https://github.com/user-attachments/assets/37c8a157-f667-4399-9f83-9d04774798b4)
 
+
+**Third game "GCD"**:
+
+*Win*
+
+![image](https://github.com/user-attachments/assets/f00ff12f-6b91-4185-aed7-95f2d6a12c9d)
+
+
+*Losing*
+
+![image](https://github.com/user-attachments/assets/c55b4d38-8f1e-4bd7-a01f-8f96511159eb)
+
