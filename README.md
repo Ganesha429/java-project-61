@@ -44,3 +44,14 @@
 
 ![image](https://github.com/user-attachments/assets/c55b4d38-8f1e-4bd7-a01f-8f96511159eb)
 
+
+**Thourth game "Progression"**:
+
+*Win*
+
+![image](https://github.com/user-attachments/assets/74b5fe4f-3b01-4410-b2e0-39e41bdc3c2b)
+
+*Losing*
+
+![image](https://github.com/user-attachments/assets/b0e56b68-407c-410d-be92-f84dc7bf5a2c)
+
