@@ -7,11 +7,9 @@ public class Engine {
     public static String getName(int numOfGames) {
         System.out.println("\nWelcome to the Brain Games!");
         System.out.print("May I have your name? ");
-
         Scanner scanner = new Scanner(System.in);
         String userName = scanner.next();
         System.out.println("Hello, " + userName + "!");
-
         // rules output
         switch (numOfGames) {
             case 1:
@@ -34,7 +32,6 @@ public class Engine {
             default:
                 throw new IllegalStateException("Unexpected value: " + numOfGames);
         }
-
         return userName;
     }
 
