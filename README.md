@@ -55,3 +55,13 @@
 
 ![image](https://github.com/user-attachments/assets/b0e56b68-407c-410d-be92-f84dc7bf5a2c)
 
+
+**Fifth game "Prime"**:
+
+*Win*
+
+![image](https://github.com/user-attachments/assets/5a2bbd1c-bd1c-4b52-8e17-b48d4a5a2a3d)
+
+*Losing*
+
+![image](https://github.com/user-attachments/assets/258cad17-20ac-4918-ac62-7cb71fe50494)
