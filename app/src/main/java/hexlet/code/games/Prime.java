@@ -21,7 +21,8 @@ public class Prime {
             boolean isPrime = isPrime(randomNumber);
             String correctAnswer = isPrime ? "yes" : "no";
 
-            counterOfSuccessfulAttempts = Engine.checkingForCorrectness(newUserName, answerOfUser, correctAnswer, counterOfSuccessfulAttempts);
+            counterOfSuccessfulAttempts = Engine.checkingForCorrectness(newUserName, answerOfUser, correctAnswer,
+                                                                        counterOfSuccessfulAttempts);
         }
 
         // congratulating the player when he wins
@@ -29,11 +30,16 @@ public class Prime {
     }
 
     private static boolean isPrime(int number) {
-        if (number < 2) return false;
+        if (number < 2) {
+            return false;
+        }
         for (int i = 2; i <= number / 2; ++i) {
-            if (number % i == 0) return false;
+            if (number % i == 0) {
+                return false;
+            }
         }
         return true;
     }
 }
+
 
