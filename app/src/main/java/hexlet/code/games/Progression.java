@@ -6,42 +6,39 @@ import hexlet.code.Engine;
 
 public class Progression {
     public static void getProgression(int numOfGame) {
-        String newUserName = Engine.getName(numOfGame); // greeting and receiving the player's name
-        int counterOfSuccessfulAttempts = 0;
+        String userName = Engine.getName(numOfGame); // Greet and get player's name
+        int successfulAttempts = 0;
         Random random = new Random();
-        int minLength = 5;
+        Scanner scanner = new Scanner(System.in);
 
-        while (counterOfSuccessfulAttempts < 3) {
-            int lengthOfArray = random.nextInt(6) + minLength; //will return random length from 5 to 10
-            int randomGap = random.nextInt(lengthOfArray); //will return random number of gap from 0 to length of array
-            int randomStepOfProgression = random.nextInt(10) + 1; // return the first random step for
-            int firstNumber = random.nextInt(10) + 1; //will return the first random number from 1 to 10
-            
-            String[] arrayOfNums = new String[lengthOfArray]; //massive of random numbers
-            String trueAnswer = "";
+        while (successfulAttempts < 3) {
+            int length = random.nextInt(6) + 5; // Random length from 5 to 10
+            int gapIndex = random.nextInt(length); // Random gap index
+            int step = random.nextInt(10) + 1; // Step from 1 to 10
+            int start = random.nextInt(10) + 1; // Start number from 1 to 10
 
-            // fill each element with a random number from 0 to 99
-            for (int i = 0; i < lengthOfArray; i++) {
-                if (i == randomGap) {
-                    trueAnswer = arrayOfNums[i];
-                    arrayOfNums[i] = "..";
+            String[] progression = new String[length];
+            String correctAnswer = "";
+
+            for (int i = 0; i < length; i++) {
+                if (i == gapIndex) {
+                    correctAnswer = String.valueOf(start);
+                    progression[i] = "..";
                 } else {
-                    arrayOfNums[i] = String.valueOf(firstNumber);
+                    progression[i] = String.valueOf(start);
                 }
-                firstNumber += randomStepOfProgression;
+                start += step;
             }
-            
-            System.out.println("Question: " + String.join(" ", arrayOfNums));
-            Scanner scanner = new Scanner(System.in);
-            String answerOfUser = scanner.next();
-            System.out.println("Your answer: " + answerOfUser);
 
-            //checking the player's answer
-            counterOfSuccessfulAttempts = Engine.checkingForCorrectness(newUserName, answerOfUser, trueAnswer,
-                    counterOfSuccessfulAttempts);
+            System.out.println("Question: " + String.join(" ", progression));
+            System.out.print("Your answer: ");
+            String userAnswer = scanner.next();
 
-            // congratulating the player when he wins
-            Engine.checkingTheResultOfGame(newUserName, counterOfSuccessfulAttempts);
+            // Check the player's answer
+            successfulAttempts = Engine.checkingForCorrectness(userName, userAnswer, correctAnswer, successfulAttempts);
+
+            // Congratulate the player when they win
+            Engine.checkingTheResultOfGame(userName, successfulAttempts);
         }
     }
 }
